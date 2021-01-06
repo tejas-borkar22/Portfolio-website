@@ -4,8 +4,7 @@
     --primary-color: #71717A;
     --off-white: #F3F4F6;
     --purple: #4F46E5;
-    --light:  #e5d4f8
-    ;
+    --light:  #E5E5E5;
 }
 
 body{
@@ -34,7 +33,19 @@ hr{
     padding: 0.5rem 1rem;
 }
 
-.link:hover {color: #1F2937;}
+.link:hover {
+    color: #1F2937;
+    transition: .3s;
+}
+.link::after{
+  
+    transform-origin: 50% 50%;
+    transition: width ;
+}
+.link:hover:after{
+    transform: translateX(-50%) scaleX(1);
+    transform: translateX(-50%) scaleX(1);
+}
 
 .link-primary {
     background-color: var(--primary-color);
@@ -98,8 +109,8 @@ nav li a{
 
 .navigation .link-active {
     font-weight: 700;
-    color: #E0E7FF;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    color: rgb(221, 218, 218);
 }
 
 /* header */
