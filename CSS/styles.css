@@ -4,17 +4,15 @@
     --primary-color: #71717A;
     --off-white: #F3F4F6;
     --purple: #4F46E5;
-    --light:  #E5E5E5;
+    --light:  #D4D4D4;
 }
 
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0rem;
     background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
 }
 
 hr{
@@ -39,7 +37,7 @@ hr{
 }
 
 .link:hover {
-    color: #1F2937;
+    color: var(--light);
     transition: .3s;
 }
 .link::after{
@@ -82,14 +80,12 @@ hr{
 }
 
 /* navigation */
-.navigation{
-    background-color: var(--primary-color);
-    color: white;
-}
 
 .navigation {
     margin-top: 10px;
-    background-color: var(--primary-color);
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -110,8 +106,6 @@ nav li a{
     font-weight: 600;
     
 }
-
-
 .navigation .link-active {
     font-weight: 700;
     font-size: 1.4rem;
@@ -164,15 +158,22 @@ nav li a{
 
 /* footer */
 .footer{
-    background-color: var(--primary-color);
+    background: #000000;  
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);
+    background: linear-gradient(to bottom, #434343, #000000); 
     padding:2rem 1rem;
     text-align: center;
-    color: white;
+    color : var(--light);
     border-top-right-radius: 1rem;
 }
 .footer .link{
-    color: white;
+    color: var(--light);
     font-weight: 600;
+}
+.footer .link:hover {
+    font-size: 1.2rem;
+    color: #f6faff;
+    transition: .3s;
 }
 .footer .footer-header {
     font-weight: 600;
@@ -191,7 +192,6 @@ nav li a{
 .showcase-blog {
     padding-bottom: 6rem;
 }
-
 
 .hide {
     display: none;
