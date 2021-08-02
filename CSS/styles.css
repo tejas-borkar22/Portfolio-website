@@ -172,12 +172,13 @@ nav li a{
 }
 .footer .link:hover {
     font-size: 1.2rem;
-    color: #f6faff;
+    color: #ffffff;
     transition: .3s;
 }
 .footer .footer-header {
     font-weight: 600;
     font-size: large;
+    color: var(--off-white);
 }
 .footer ul{
     padding-inline-start: 0px;
