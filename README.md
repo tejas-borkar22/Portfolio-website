@@ -4,12 +4,13 @@
 
 This is my portfolio website.
 
-*References Used:*
-
-https://undraw.co/illustrations
-https://tailwindcss.com/docs/customizing-colors
-https://w3schools.com
-https://flaticons.com
-https://fontawesome.com
-https://flatui.com
-https://www.logaster.com/
+*Resources Used:*
+<ul>
+  <li>https://undraw.co/illustrations</li>
+  <li>https://tailwindcss.com/docs/customizing-colors</li>
+  <li>https://w3schools.com</li>
+  <li>https://flaticons.com</li>
+  <li>https://fontawesome.com</li>
+  <li>https://flatui.com</li>
+  <li>https://www.logaster.com/</li>
+</ul>
